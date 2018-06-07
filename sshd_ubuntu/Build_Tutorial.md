@@ -47,7 +47,7 @@ deb-src http://mirrors.aliyun.com/ubuntu/ xenial-security universe' > /etc/apt/s
 # netstat -tlunp | grep 22
 ```
 
-### 6. 修改SSH服务安全登录配置，取消pam登录限制
+### 6. 修改SSH服务安全登录配置，取消PAM登录限制
 ```shell
 # sed -ri 's/session    required     pam_loginuid.so/#session    required     pam_loginuid.so/g' /etc/pam.d/sshd
 ```
