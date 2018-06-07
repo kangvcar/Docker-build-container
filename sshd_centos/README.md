@@ -12,8 +12,8 @@
 
 #### 创建工作目录`sshd_centos`并编写如下文件：
 
-- [Dockerfile]()：`Dockerfile`文件
-- [authorized_keys]()：宿主主机的公钥(使用`ssh-keygen -t rsa`生成，公钥文件`/root/.ssh/id_rsa.pub`)
+- [Dockerfile](https://github.com/kangvcar/Docker-build-container/blob/master/sshd_centos/Dockerfile)：`Dockerfile`文件
+- [authorized_keys](https://github.com/kangvcar/Docker-build-container/blob/master/sshd_centos/authorized_keys)：宿主主机的公钥(使用`ssh-keygen -t rsa`生成，公钥文件`/root/.ssh/id_rsa.pub`)
 
 #### Build Image
 ```shell
