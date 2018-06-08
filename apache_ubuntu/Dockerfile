@@ -1,5 +1,9 @@
 FROM ubuntu:16.04
 
+#######################
+##   编译安装 Apache  ##
+#######################
+
 MAINTAINER kangvcar (kangvcar@126.com)
 
 # 更新apt源
